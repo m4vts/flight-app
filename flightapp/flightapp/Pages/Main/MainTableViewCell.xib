@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MainTableViewCell" rowHeight="182" id="KGk-i7-Jjw" customClass="MainTableViewCell" customModule="flightapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="484" height="182"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="484" height="182"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tAJ-uX-N8H">
+                        <rect key="frame" x="0.0" y="126.5" width="484" height="55.5"/>
+                        <color key="backgroundColor" name="CellColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43" id="ftp-bu-eZ1"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="qKN-DB-0Ug">
+                        <rect key="frame" x="16" y="22" width="62" height="74.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Havayolu:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3S6-Bz-eAs">
+                                <rect key="frame" x="0.0" y="0.0" width="62" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kalkış:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ds-Kq-cga">
+                                <rect key="frame" x="0.0" y="29.5" width="41.5" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="thn-0n-Bl0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Varış:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EhO-qJ-6PH">
+                                <rect key="frame" x="0.0" y="58.5" width="34" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="emp-I5-oBN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CellShape" translatesAutoresizingMaskIntoConstraints="NO" id="0Ak-Pf-nIE">
+                        <rect key="frame" x="41" y="152" width="15" height="15"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CellPath" translatesAutoresizingMaskIntoConstraints="NO" id="Zke-Oz-L2e">
+                        <rect key="frame" x="459" y="156.5" width="4" height="9.5"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="tAJ-uX-N8H" secondAttribute="trailing" id="Nxp-Qv-I7W"/>
+                    <constraint firstItem="qKN-DB-0Ug" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="22" id="PZt-Wt-XkE"/>
+                    <constraint firstAttribute="bottom" secondItem="tAJ-uX-N8H" secondAttribute="bottom" id="VAa-3w-oev"/>
+                    <constraint firstItem="qKN-DB-0Ug" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="X6q-q6-866"/>
+                    <constraint firstAttribute="bottom" secondItem="Zke-Oz-L2e" secondAttribute="bottom" constant="16" id="f1M-0J-h4o"/>
+                    <constraint firstItem="tAJ-uX-N8H" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fK5-6k-svu"/>
+                    <constraint firstAttribute="bottom" secondItem="0Ak-Pf-nIE" secondAttribute="bottom" constant="15" id="jeY-rj-bTp"/>
+                    <constraint firstItem="0Ak-Pf-nIE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="41" id="pE9-cC-FYC"/>
+                    <constraint firstItem="tAJ-uX-N8H" firstAttribute="top" secondItem="qKN-DB-0Ug" secondAttribute="bottom" constant="30" id="uea-C3-uuE"/>
+                    <constraint firstAttribute="trailing" secondItem="Zke-Oz-L2e" secondAttribute="trailing" constant="21" id="z2P-Yq-4Si"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblHavayolu" destination="3S6-Bz-eAs" id="Ywp-nT-mTr"/>
+                <outlet property="lblKalkis" destination="7ds-Kq-cga" id="eNa-6g-UJP"/>
+                <outlet property="lblVaris" destination="EhO-qJ-6PH" id="5Pt-gH-5GM"/>
+            </connections>
+            <point key="canvasLocation" x="275.36231884057975" y="40.848214285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="CellPath" width="4" height="9.5"/>
+        <image name="CellShape" width="15" height="15"/>
+        <namedColor name="CellColor">
+            <color red="0.94499999284744263" green="0.94900000095367432" blue="0.98400002717971802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

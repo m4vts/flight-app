@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DF9E55C02109F2160BF0E29 /* Pods_flightapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526B000E26328298557A0087 /* Pods_flightapp.framework */; };
+		773C978126720B780000FD89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C978026720B780000FD89 /* AppDelegate.swift */; };
+		773C978326720B780000FD89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C978226720B780000FD89 /* SceneDelegate.swift */; };
+		773C978526720B780000FD89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C978426720B780000FD89 /* ViewController.swift */; };
+		773C978826720B780000FD89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773C978626720B780000FD89 /* Main.storyboard */; };
+		773C978A26720B7B0000FD89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773C978926720B7B0000FD89 /* Assets.xcassets */; };
+		773C978D26720B7B0000FD89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773C978B26720B7B0000FD89 /* LaunchScreen.storyboard */; };
+		773C97A026720D720000FD89 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C979F26720D720000FD89 /* SplashViewController.swift */; };
+		773C97A426720DCF0000FD89 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C97A326720DCF0000FD89 /* MainViewController.swift */; };
+		773C97A726720DDC0000FD89 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C97A626720DDC0000FD89 /* LoginViewController.swift */; };
+		773C97AA26720DE60000FD89 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C97A926720DE60000FD89 /* DetailViewController.swift */; };
+		773C97BC2672114F0000FD89 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 773C97B02672114F0000FD89 /* Roboto-MediumItalic.ttf */; };
+		773C97BD2672114F0000FD89 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 773C97B12672114F0000FD89 /* Roboto-ThinItalic.ttf */; };
+		773C97BE2672114F0000FD89 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 773C97B22672114F0000FD89 /* Roboto-Black.ttf */; };
+		773C97BF2672114F0000FD89 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 773C97B32672114F0000FD89 /* Roboto-BoldItalic.ttf */; };
+		773C97C02672114F0000FD89 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 773C97B42672114F0000FD89 /* Roboto-Bold.ttf */; };
+		773C97C12672114F0000FD89 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 773C97B52672114F0000FD89 /* Roboto-BlackItalic.ttf */; };
+		773C97C22672114F0000FD89 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 773C97B62672114F0000FD89 /* Roboto-Italic.ttf */; };
+		773C97C32672114F0000FD89 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 773C97B72672114F0000FD89 /* Roboto-Light.ttf */; };
+		773C97C42672114F0000FD89 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 773C97B82672114F0000FD89 /* Roboto-Medium.ttf */; };
+		773C97C52672114F0000FD89 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 773C97B92672114F0000FD89 /* Roboto-Regular.ttf */; };
+		773C97C62672114F0000FD89 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 773C97BA2672114F0000FD89 /* Roboto-Thin.ttf */; };
+		773C97C72672114F0000FD89 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 773C97BB2672114F0000FD89 /* Roboto-LightItalic.ttf */; };
+		773C97CA26722D710000FD89 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C97C926722D710000FD89 /* Helper.swift */; };
+		773C97D0267248270000FD89 /* Inter-VariableFont_slnt,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 773C97CF267248260000FD89 /* Inter-VariableFont_slnt,wght.ttf */; };
+		773C97D4267258FC0000FD89 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C97D2267258FB0000FD89 /* MainTableViewCell.swift */; };
+		773C97D5267258FC0000FD89 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773C97D3267258FB0000FD89 /* MainTableViewCell.xib */; };
+		773C97D82672BBD30000FD89 /* FlightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C97D72672BBD20000FD89 /* FlightModel.swift */; };
+		773C97DB2672BC060000FD89 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C97DA2672BC060000FD89 /* API.swift */; };
+		773C97DE2672BD6C0000FD89 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C97DD2672BD6C0000FD89 /* Constants.swift */; };
+		773C97E12672CAD20000FD89 /* FlightResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C97E02672CAD20000FD89 /* FlightResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		526B000E26328298557A0087 /* Pods_flightapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flightapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		773C977D26720B780000FD89 /* flightapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flightapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		773C978026720B780000FD89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		773C978226720B780000FD89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		773C978426720B780000FD89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		773C978726720B780000FD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		773C978926720B7B0000FD89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		773C978C26720B7B0000FD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		773C978E26720B7B0000FD89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773C979F26720D720000FD89 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		773C97A326720DCF0000FD89 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		773C97A626720DDC0000FD89 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		773C97A926720DE60000FD89 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		773C97B02672114F0000FD89 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		773C97B12672114F0000FD89 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		773C97B22672114F0000FD89 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		773C97B32672114F0000FD89 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		773C97B42672114F0000FD89 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		773C97B52672114F0000FD89 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		773C97B62672114F0000FD89 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		773C97B72672114F0000FD89 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		773C97B82672114F0000FD89 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		773C97B92672114F0000FD89 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		773C97BA2672114F0000FD89 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		773C97BB2672114F0000FD89 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		773C97C926722D710000FD89 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		773C97CF267248260000FD89 /* Inter-VariableFont_slnt,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-VariableFont_slnt,wght.ttf"; sourceTree = "<group>"; };
+		773C97D2267258FB0000FD89 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		773C97D3267258FB0000FD89 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		773C97D72672BBD20000FD89 /* FlightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightModel.swift; sourceTree = "<group>"; };
+		773C97DA2672BC060000FD89 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		773C97DD2672BD6C0000FD89 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		773C97E02672CAD20000FD89 /* FlightResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightResponse.swift; sourceTree = "<group>"; };
+		B11199F36D29FC6E44141B68 /* Pods-flightapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flightapp.debug.xcconfig"; path = "Target Support Files/Pods-flightapp/Pods-flightapp.debug.xcconfig"; sourceTree = "<group>"; };
+		F21686AEE82AF5BFCC3426E7 /* Pods-flightapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flightapp.release.xcconfig"; path = "Target Support Files/Pods-flightapp/Pods-flightapp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		773C977A26720B780000FD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF9E55C02109F2160BF0E29 /* Pods_flightapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		773C977426720B780000FD89 = {
+			isa = PBXGroup;
+			children = (
+				773C977F26720B780000FD89 /* flightapp */,
+				773C977E26720B780000FD89 /* Products */,
+				EB6D5308FCFD74A13DE42BFC /* Pods */,
+				BDF837CB2108A259F1ABDF78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		773C977E26720B780000FD89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				773C977D26720B780000FD89 /* flightapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		773C977F26720B780000FD89 /* flightapp */ = {
+			isa = PBXGroup;
+			children = (
+				773C97AD26720E1C0000FD89 /* Networking */,
+				773C97AC26720E0D0000FD89 /* Models */,
+				773C979A26720C890000FD89 /* Pages */,
+				773C978026720B780000FD89 /* AppDelegate.swift */,
+				773C978226720B780000FD89 /* SceneDelegate.swift */,
+				773C978426720B780000FD89 /* ViewController.swift */,
+				773C978626720B780000FD89 /* Main.storyboard */,
+				773C978926720B7B0000FD89 /* Assets.xcassets */,
+				773C978B26720B7B0000FD89 /* LaunchScreen.storyboard */,
+				773C978E26720B7B0000FD89 /* Info.plist */,
+				773C97C926722D710000FD89 /* Helper.swift */,
+				773C97AF267210F00000FD89 /* fonts */,
+			);
+			path = flightapp;
+			sourceTree = "<group>";
+		};
+		773C979A26720C890000FD89 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				773C979E26720D1A0000FD89 /* FlightDetail */,
+				773C979D26720D0B0000FD89 /* Login */,
+				773C979C26720CAA0000FD89 /* Main */,
+				773C979B26720C920000FD89 /* Splash */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		773C979B26720C920000FD89 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				773C979F26720D720000FD89 /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		773C979C26720CAA0000FD89 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				773C97A326720DCF0000FD89 /* MainViewController.swift */,
+				773C97D2267258FB0000FD89 /* MainTableViewCell.swift */,
+				773C97D3267258FB0000FD89 /* MainTableViewCell.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		773C979D26720D0B0000FD89 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				773C97A626720DDC0000FD89 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		773C979E26720D1A0000FD89 /* FlightDetail */ = {
+			isa = PBXGroup;
+			children = (
+				773C97A926720DE60000FD89 /* DetailViewController.swift */,
+			);
+			path = FlightDetail;
+			sourceTree = "<group>";
+		};
+		773C97AC26720E0D0000FD89 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				773C97D72672BBD20000FD89 /* FlightModel.swift */,
+				773C97E02672CAD20000FD89 /* FlightResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		773C97AD26720E1C0000FD89 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				773C97DA2672BC060000FD89 /* API.swift */,
+				773C97DD2672BD6C0000FD89 /* Constants.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		773C97AF267210F00000FD89 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				773C97CF267248260000FD89 /* Inter-VariableFont_slnt,wght.ttf */,
+				773C97B22672114F0000FD89 /* Roboto-Black.ttf */,
+				773C97B52672114F0000FD89 /* Roboto-BlackItalic.ttf */,
+				773C97B42672114F0000FD89 /* Roboto-Bold.ttf */,
+				773C97B32672114F0000FD89 /* Roboto-BoldItalic.ttf */,
+				773C97B62672114F0000FD89 /* Roboto-Italic.ttf */,
+				773C97B72672114F0000FD89 /* Roboto-Light.ttf */,
+				773C97BB2672114F0000FD89 /* Roboto-LightItalic.ttf */,
+				773C97B82672114F0000FD89 /* Roboto-Medium.ttf */,
+				773C97B02672114F0000FD89 /* Roboto-MediumItalic.ttf */,
+				773C97B92672114F0000FD89 /* Roboto-Regular.ttf */,
+				773C97BA2672114F0000FD89 /* Roboto-Thin.ttf */,
+				773C97B12672114F0000FD89 /* Roboto-ThinItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		BDF837CB2108A259F1ABDF78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				526B000E26328298557A0087 /* Pods_flightapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB6D5308FCFD74A13DE42BFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B11199F36D29FC6E44141B68 /* Pods-flightapp.debug.xcconfig */,
+				F21686AEE82AF5BFCC3426E7 /* Pods-flightapp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		773C977C26720B780000FD89 /* flightapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773C979126720B7B0000FD89 /* Build configuration list for PBXNativeTarget "flightapp" */;
+			buildPhases = (
+				B6913FD8C517DF131BF6623F /* [CP] Check Pods Manifest.lock */,
+				773C977926720B780000FD89 /* Sources */,
+				773C977A26720B780000FD89 /* Frameworks */,
+				773C977B26720B780000FD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flightapp;
+			productName = flightapp;
+			productReference = 773C977D26720B780000FD89 /* flightapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		773C977526720B780000FD89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					773C977C26720B780000FD89 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 773C977826720B780000FD89 /* Build configuration list for PBXProject "flightapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 773C977426720B780000FD89;
+			productRefGroup = 773C977E26720B780000FD89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				773C977C26720B780000FD89 /* flightapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		773C977B26720B780000FD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773C97C62672114F0000FD89 /* Roboto-Thin.ttf in Resources */,
+				773C97BD2672114F0000FD89 /* Roboto-ThinItalic.ttf in Resources */,
+				773C97C72672114F0000FD89 /* Roboto-LightItalic.ttf in Resources */,
+				773C97BC2672114F0000FD89 /* Roboto-MediumItalic.ttf in Resources */,
+				773C978D26720B7B0000FD89 /* LaunchScreen.storyboard in Resources */,
+				773C97C32672114F0000FD89 /* Roboto-Light.ttf in Resources */,
+				773C978A26720B7B0000FD89 /* Assets.xcassets in Resources */,
+				773C97C12672114F0000FD89 /* Roboto-BlackItalic.ttf in Resources */,
+				773C97D5267258FC0000FD89 /* MainTableViewCell.xib in Resources */,
+				773C978826720B780000FD89 /* Main.storyboard in Resources */,
+				773C97BF2672114F0000FD89 /* Roboto-BoldItalic.ttf in Resources */,
+				773C97C42672114F0000FD89 /* Roboto-Medium.ttf in Resources */,
+				773C97C22672114F0000FD89 /* Roboto-Italic.ttf in Resources */,
+				773C97D0267248270000FD89 /* Inter-VariableFont_slnt,wght.ttf in Resources */,
+				773C97C52672114F0000FD89 /* Roboto-Regular.ttf in Resources */,
+				773C97C02672114F0000FD89 /* Roboto-Bold.ttf in Resources */,
+				773C97BE2672114F0000FD89 /* Roboto-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6913FD8C517DF131BF6623F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-flightapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		773C977926720B780000FD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773C97DB2672BC060000FD89 /* API.swift in Sources */,
+				773C97A726720DDC0000FD89 /* LoginViewController.swift in Sources */,
+				773C97D4267258FC0000FD89 /* MainTableViewCell.swift in Sources */,
+				773C97E12672CAD20000FD89 /* FlightResponse.swift in Sources */,
+				773C978526720B780000FD89 /* ViewController.swift in Sources */,
+				773C978126720B780000FD89 /* AppDelegate.swift in Sources */,
+				773C978326720B780000FD89 /* SceneDelegate.swift in Sources */,
+				773C97D82672BBD30000FD89 /* FlightModel.swift in Sources */,
+				773C97A026720D720000FD89 /* SplashViewController.swift in Sources */,
+				773C97A426720DCF0000FD89 /* MainViewController.swift in Sources */,
+				773C97CA26722D710000FD89 /* Helper.swift in Sources */,
+				773C97AA26720DE60000FD89 /* DetailViewController.swift in Sources */,
+				773C97DE2672BD6C0000FD89 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		773C978626720B780000FD89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773C978726720B780000FD89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		773C978B26720B7B0000FD89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773C978C26720B7B0000FD89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		773C978F26720B7B0000FD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		773C979026720B7B0000FD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		773C979226720B7B0000FD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11199F36D29FC6E44141B68 /* Pods-flightapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4STUVVP7HC;
+				INFOPLIST_FILE = flightapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omavitas.flightapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		773C979326720B7B0000FD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F21686AEE82AF5BFCC3426E7 /* Pods-flightapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4STUVVP7HC;
+				INFOPLIST_FILE = flightapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omavitas.flightapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		773C977826720B780000FD89 /* Build configuration list for PBXProject "flightapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773C978F26720B7B0000FD89 /* Debug */,
+				773C979026720B7B0000FD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773C979126720B7B0000FD89 /* Build configuration list for PBXNativeTarget "flightapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773C979226720B7B0000FD89 /* Debug */,
+				773C979326720B7B0000FD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 773C977526720B780000FD89 /* Project object */;
+}
